@@ -4,6 +4,7 @@ nav {
     padding: 10px;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 nav img {
@@ -15,21 +16,32 @@ nav a {
     font-size: 1.25rem;
 }
 
-#Menu {
+#menu-container{
+    display: flex;
+    align-items: space-around;
+}
 
+.menu img {
+max-width: 20%;
+}
+
+#menu-container h3 {
+    color: orange;
 }
 
 #Team {
-    
+    display: flex;
+    align-items: space-around;
 }
 
 #team-container {
     display: flex;
-    align-items: center;
+    align-items: space-around;
 
 }
 #team-container img {
-    width: 25%;
+    max-width: 20%;
+
 }
 
 #Contact {
