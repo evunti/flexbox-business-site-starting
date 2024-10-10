@@ -1,10 +1,21 @@
+
+* {
+    font-family: Helvetica, sans-serif;
+    color: orange;
+}
+p {
+    font-family: sans-serif;
+    color: black;
+}
+
 nav {
-    display: flex;
-    border-bottom: 1px solid black;
-    padding: 10px;
-    align-items: center;
+    display: flex; 
+    top: 0;
+    width: 99%;
     justify-content: space-between;
-    
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid black;
 }
 
 nav img {
@@ -12,11 +23,15 @@ nav img {
 }
 
 nav a {
+    padding: 5px;
     color: black;
     font-size: 1.25rem;
 }
 
+
+
 #header-container{
+    margin-top: 10%;
     display: flex;
     justify-content: center;
 
@@ -42,18 +57,39 @@ nav a {
     color: orange;
 }
 
-#team-container {
+#team-container , h3 {
     display: flex;
     justify-content: center;
-
+    
 }
+
+#team-container {
+   display: flex;
+   justify-content: center;
+   align-content: space-around;
+}
+
 #team-container img {
     width: 200px;
     height: 200px;
-    border-radius: 10%;
-    border-radius: 40%;
     padding: 10px;
-
-
+    border-radius: 30%;
+}
+#img-container{
+    display: block;
+    align-content: space-around;
+    background-image: url(./images/orange\ background.jpg);
+    border-radius: 5%;
+    outline-color: white;
 }
 
+#contact-container h2, p {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-container h2 {
+    border-top: 1px solid black;
+    padding: 10px;
+
+}
