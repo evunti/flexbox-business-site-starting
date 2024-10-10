@@ -16,34 +16,44 @@ nav a {
     font-size: 1.25rem;
 }
 
-#menu-container{
+#header-container{
     display: flex;
-    align-items: space-around;
+    justify-content: center;
+
+}
+
+#header-container h2 {
+    display:flex;
+    justify-content: center;    
 }
 
 .menu img {
-max-width: 20%;
-}
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    padding: 10px;
+    }
 
+#menu-container {
+    display: flex;
+    justify-content: center;
+}
 #menu-container h3 {
     color: orange;
 }
 
-#Team {
-    display: flex;
-    align-items: space-around;
-}
-
 #team-container {
     display: flex;
-    align-items: space-around;
+    justify-content: center;
 
 }
 #team-container img {
-    max-width: 20%;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    border-radius: 40%;
+    padding: 10px;
+
 
 }
 
-#Contact {
-
-}
