@@ -28,7 +28,21 @@ nav a {
     font-size: 1.25rem;
 }
 
+#pic-container { 
+    background-image:url('./images/the\ team.jpg');
+    height: 700px;
+    max-width: 1200px;
+    background-size: cover;
+    margin: 10% auto;   
+    
+}
 
+#pic-container h2, p {
+    display: flex;
+    justify-content: center;
+    
+    
+}
 
 #header-container{
     margin-top: 10%;
